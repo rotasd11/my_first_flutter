@@ -55,7 +55,7 @@ class SubPage extends StatelessWidget {
             children: <Widget>[
               const Text('サブページ'),
               ElevatedButton(onPressed: () => Navigator.of(context).pop(),
-                child: const Text('戻る')
+                child: const Text('return')
                 )
             ],
           ),
